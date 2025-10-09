@@ -50,7 +50,6 @@ const Index = () => {
 
   const [commonParams, setCommonParams] = useState<CommonParams>({
     horizonYears: 10,
-    ipca: 5.0,
     discountRate: 13.5,
   });
 
@@ -123,19 +122,36 @@ const Index = () => {
                 className="mt-1"
               />
             </div>
-            <div>
-              <Label htmlFor="ipca">IPCA Esperado (% a.a.)</Label>
-              <Input
-                id="ipca"
-                type="number"
-                step="0.1"
-                value={commonParams.ipca}
-                onChange={(e) =>
-                  setCommonParams({ ...commonParams, ipca: parseFloat(e.target.value) || 0 })
-                }
-                className="mt-1"
-              />
-            </div>
+            {tesouroParams.bondType === "selic" && (
+              <div>
+                <Label htmlFor="selic">Selic Esperada (% a.a.)</Label>
+                <Input
+                  id="selic"
+                  type="number"
+                  step="0.1"
+                  value={tesouroParams.annualRate}
+                  onChange={(e) =>
+                    setTesouroParams({ ...tesouroParams, annualRate: parseFloat(e.target.value) || 0 })
+                  }
+                  className="mt-1"
+                />
+              </div>
+            )}
+            {tesouroParams.bondType === "ipca" && (
+              <div>
+                <Label htmlFor="ipca">IPCA Esperado (% a.a.)</Label>
+                <Input
+                  id="ipca"
+                  type="number"
+                  step="0.1"
+                  value={tesouroParams.ipca}
+                  onChange={(e) =>
+                    setTesouroParams({ ...tesouroParams, ipca: parseFloat(e.target.value) || 0 })
+                  }
+                  className="mt-1"
+                />
+              </div>
+            )}
             <div>
               <Label htmlFor="discountRate">Taxa de Desconto (% a.a.)</Label>
               <Input

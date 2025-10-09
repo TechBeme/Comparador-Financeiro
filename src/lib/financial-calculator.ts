@@ -36,7 +36,6 @@ export interface TesouroDiretoParams {
 
 export interface CommonParams {
   horizonYears: number;
-  ipca: number; // inflação esperada % a.a.
   discountRate: number; // taxa de desconto % a.a.
 }
 
@@ -97,7 +96,6 @@ export function calculateRealEstate(
   const monthlyFlows: MonthlyFlow[] = [];
   
   // Conversões corretas: (1+r_aa)^(1/12)-1
-  const ipcaMonthly = annualToMonthly(common.ipca);
   const rentGrowthMonthly = annualToMonthly(params.rentGrowthRate);
   const appreciationMonthly = annualToMonthly(params.propertyAppreciation);
   const defaultMonthly = annualToMonthly(params.defaultRate);
