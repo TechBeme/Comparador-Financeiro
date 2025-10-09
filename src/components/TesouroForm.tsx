@@ -51,7 +51,14 @@ export function TesouroForm({ params, onChange }: TesouroFormProps) {
             <Label htmlFor="bondType">Tipo de Título</Label>
             <Select
               value={params.bondType}
-              onValueChange={(value: "selic" | "ipca" | "prefixado") => updateParam("bondType", value)}
+              onValueChange={(value: "selic" | "ipca" | "prefixado") => {
+                const defaultRates = {
+                  selic: 15.0,
+                  ipca: 8.0,
+                  prefixado: 14.0,
+                };
+                onChange({ ...params, bondType: value, annualRate: defaultRates[value] });
+              }}
             >
               <SelectTrigger id="bondType" className="mt-1">
                 <SelectValue />
