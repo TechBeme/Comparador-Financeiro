@@ -223,10 +223,24 @@ const Index = () => {
                 <span className="text-sm text-muted-foreground">Tipo de Título</span>
                 <span className="font-semibold capitalize">{tesouroParams.bondType}</span>
               </div>
-              <div className="flex justify-between items-center">
-                <span className="text-sm text-muted-foreground">Taxa Real (IPCA+)</span>
-                <span className="font-semibold">{formatPercent(tesouroParams.annualRate)}</span>
-              </div>
+              {tesouroParams.bondType === "ipca" && (
+                <>
+                  <div className="flex justify-between items-center pb-2 border-b">
+                    <span className="text-sm text-muted-foreground">Taxa Real (IPCA+)</span>
+                    <span className="font-semibold">{formatPercent(tesouroParams.annualRate)}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-muted-foreground">Taxa Nominal (IPCA+)</span>
+                    <span className="font-semibold">{formatPercent(tesouroParams.annualRate + tesouroParams.ipca)}</span>
+                  </div>
+                </>
+              )}
+              {tesouroParams.bondType !== "ipca" && (
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-muted-foreground">Taxa Anual</span>
+                  <span className="font-semibold">{formatPercent(tesouroParams.annualRate)}</span>
+                </div>
+              )}
             </div>
           </Card>
         </div>
