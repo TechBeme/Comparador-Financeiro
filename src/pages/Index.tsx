@@ -231,7 +231,7 @@ const Index = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-muted-foreground">Taxa Nominal (IPCA+)</span>
-                    <span className="font-semibold">{formatPercent(tesouroParams.annualRate + tesouroParams.ipca)}</span>
+                    <span className="font-semibold">{formatPercent(((1 + tesouroParams.annualRate / 100) * (1 + tesouroParams.ipca / 100) - 1) * 100)}</span>
                   </div>
                 </>
               )}
