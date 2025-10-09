@@ -269,8 +269,8 @@ export function calculateTesouroDireto(
   // Taxa nominal do título (para IPCA+)
   let nominalAnnualRate = params.annualRate;
   if (params.bondType === 'ipca') {
-    // r_nom = (1 + real) * (1 + ipca) - 1
-    nominalAnnualRate = ((1 + params.annualRate / 100) * (1 + common.ipca / 100) - 1) * 100;
+    // Fórmula de Fisher exata: (1 + real) × (1 + inflação) - 1
+    nominalAnnualRate = ((1 + params.annualRate / 100) * (1 + params.ipca / 100) - 1) * 100;
   }
   
   const nominalMonthlyRate = annualToMonthly(nominalAnnualRate);
