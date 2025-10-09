@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# 💰 Comparador Financeiro
 
-## Project info
+Uma ferramenta completa para análise e comparação de investimentos entre **Imóveis para Aluguel** e **Tesouro Direto**.
 
-**URL**: https://lovable.dev/projects/282412de-ad57-4c95-8414-25192ce723a8
+## 📊 Sobre o Projeto
 
-## How can I edit this code?
+O Comparador Financeiro é uma aplicação web desenvolvida para auxiliar investidores na tomada de decisão entre investir em imóveis para aluguel em São Paulo ou aplicar no Tesouro Direto. A ferramenta oferece análises financeiras detalhadas considerando todos os custos, impostos e variáveis relevantes.
 
-There are several ways of editing your application.
+## 🎯 Funcionalidades
 
-**Use Lovable**
+- **Análise Comparativa Completa**: Compare lado a lado investimentos em imóveis e Tesouro Direto
+- **Cálculo de TIR (Taxa Interna de Retorno)**: Avalie a rentabilidade real de cada investimento
+- **Cálculo de VPL (Valor Presente Líquido)**: Entenda o valor presente dos seus investimentos
+- **Fluxo de Caixa Detalhado**: Visualize receitas e despesas ao longo do tempo
+- **IR Regressivo**: Cálculo automático considerando a tabela regressiva do Imposto de Renda
+- **Custos de Transação**: Inclui ITBI, corretagem, escritura e outros custos relevantes
+- **Manutenção e Vacância**: Considera períodos sem inquilino e custos de manutenção
+- **Interface Intuitiva**: Design moderno e responsivo para fácil utilização
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/282412de-ad57-4c95-8414-25192ce723a8) and start prompting.
+## 🚀 Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **TypeScript** - Superset tipado do JavaScript
+- **Vite** - Build tool e dev server de alta performance
+- **Tailwind CSS** - Framework CSS utilitário
+- **shadcn-ui** - Componentes UI reutilizáveis e acessíveis
 
-**Use your preferred IDE**
+## 💻 Como Executar Localmente
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Pré-requisitos
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (recomendado: v18 ou superior)
+- npm ou yarn
 
-Follow these steps:
+### Instalação
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone o repositório
+git clone https://github.com/TechBeme/Comparador-Financeiro.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Entre na pasta do projeto
+cd Comparador-Financeiro
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+A aplicação estará disponível em `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build para Produção
 
-**Use GitHub Codespaces**
+```bash
+# Gerar build otimizado
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview do build
+npm run preview
+```
 
-## What technologies are used for this project?
+## 📝 Como Usar
 
-This project is built with:
+1. **Dados do Imóvel**: Insira o valor do imóvel, aluguel esperado, custos de aquisição
+2. **Parâmetros do Tesouro**: Configure a taxa de juros e período de investimento
+3. **Análise**: Visualize os resultados comparativos com gráficos e métricas
+4. **Decisão**: Use as análises de TIR, VPL e fluxo de caixa para tomar sua decisão
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contribuindo
 
-## How can I deploy this project?
+Contribuições são bem-vindas! Sinta-se à vontade para:
 
-Simply open [Lovable](https://lovable.dev/projects/282412de-ad57-4c95-8414-25192ce723a8) and click on Share -> Publish.
+1. Fazer um fork do projeto
+2. Criar uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abrir um Pull Request
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 Licença
 
-Yes, you can!
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👤 Autor
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**TechBe**
+- GitHub: [@TechBeme](https://github.com/TechBeme)
+- Twitter: [@techbe](https://twitter.com/techbe)
+
+## 🌟 Mostre seu Apoio
+
+Se este projeto te ajudou, considere dar uma ⭐️!
+
+---
+
+Desenvolvido com 💙 por [TechBe](https://github.com/TechBeme)
