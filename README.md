@@ -85,7 +85,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **TechBe**
 - GitHub: [@TechBeme](https://github.com/TechBeme)
-- Twitter: [@techbe](https://twitter.com/techbe)
 
 ## 🌟 Mostre seu Apoio
 
