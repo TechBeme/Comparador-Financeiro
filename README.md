@@ -638,7 +638,3 @@ Se este projeto foi útil para você, considere:
 [![Email](https://img.shields.io/badge/Email-contato@techbe.me-EA4335?logo=gmail)](mailto:contato@techbe.me)
 
 </div>
-
----
-
-Desenvolvido com 💙 por [TechBe](https://github.com/TechBeme)
