@@ -69,7 +69,7 @@ Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras ma
 [![GitHub](https://img.shields.io/badge/GitHub-TechBeme-181717?logo=github)](https://github.com/TechBeme)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Tech__Be-1DBF73?logo=fiverr)](https://www.fiverr.com/tech_be)
 [![Upwork](https://img.shields.io/badge/Upwork-Profile-14a800?logo=upwork)](https://www.upwork.com/freelancers/~01f0abcf70bbd95376)
-[![Email](https://img.shields.io/badge/Email-contact@techbe.me-EA4335?logo=gmail)](mailto:contact@techbe.me)
+[![Email](https://img.shields.io/badge/Email-contato@techbe.me-EA4335?logo=gmail)](mailto:contato@techbe.me)
 
 ### 🚀 Precisa de uma Aplicação Web Personalizada?
 
@@ -84,7 +84,7 @@ Especializado em **aplicações financeiras**, **dashboards interativos**, **aut
 
 **Entre em contato para transformar sua ideia em realidade!**
 
-📧 [contact@techbe.me](mailto:contact@techbe.me)
+📧 [contato@techbe.me](mailto:contato@techbe.me)
 
 </div>
 
@@ -613,7 +613,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 Encontrou algum problema ou tem dúvidas?
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/TechBeme/Comparador-Financeiro/issues)
-- 📧 **Email**: [contact@techbe.me](mailto:contact@techbe.me)
+- 📧 **Email**: [contato@techbe.me](mailto:contato@techbe.me)
 - 💼 **Fiverr**: [Tech_Be](https://www.fiverr.com/tech_be)
 - 💼 **Upwork**: [Rafael Vieira](https://www.upwork.com/freelancers/~01f0abcf70bbd95376)
 
@@ -636,7 +636,7 @@ Se este projeto foi útil para você, considere:
 
 [![GitHub](https://img.shields.io/badge/GitHub-TechBeme-181717?logo=github)](https://github.com/TechBeme)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Tech__Be-1DBF73?logo=fiverr)](https://www.fiverr.com/tech_be)
-[![Email](https://img.shields.io/badge/Email-contact@techbe.me-EA4335?logo=gmail)](mailto:contact@techbe.me)
+[![Email](https://img.shields.io/badge/Email-contato@techbe.me-EA4335?logo=gmail)](mailto:contato@techbe.me)
 
 </div>
 
