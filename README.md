@@ -626,7 +626,6 @@ Se este projeto foi útil para você, considere:
 - ⭐ Dar uma estrela no GitHub
 - 🔄 Compartilhar com amigos investidores
 - 🐦 Tweetar sobre o projeto
-- 💰 [Me pagar um café](https://www.buymeacoffee.com/techbeme) ☕
 
 ---
 
@@ -639,49 +638,6 @@ Se este projeto foi útil para você, considere:
 [![Email](https://img.shields.io/badge/Email-contato@techbe.me-EA4335?logo=gmail)](mailto:contato@techbe.me)
 
 </div>
-
-
-A aplicação estará disponível em `http://localhost:5173`
-
-## 🏗️ Build para Produção
-
-```bash
-# Gerar build otimizado
-npm run build
-
-# Preview do build
-npm run preview
-```
-
-## 📝 Como Usar
-
-1. **Dados do Imóvel**: Insira o valor do imóvel, aluguel esperado, custos de aquisição
-2. **Parâmetros do Tesouro**: Configure a taxa de juros e período de investimento
-3. **Análise**: Visualize os resultados comparativos com gráficos e métricas
-4. **Decisão**: Use as análises de TIR, VPL e fluxo de caixa para tomar sua decisão
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer um fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
-4. Push para a branch (`git push origin feature/MinhaFeature`)
-5. Abrir um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👤 Autor
-
-**TechBe**
-- GitHub: [@TechBeme](https://github.com/TechBeme)
-
-## 🌟 Mostre seu Apoio
-
-Se este projeto te ajudou, considere dar uma ⭐️!
 
 ---
 
