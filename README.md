@@ -8,11 +8,16 @@
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-[Características](#-características) • [Demo](#-demo) • [Instalação](#-instalação) • [Como Usar](#-como-usar) • [Cálculos Financeiros](#-cálculos-financeiros) • [Stack](#-stack-tecnológica)
+[🚀 Demo ao Vivo](https://financeiro.yuia.dev/) • [Características](#-características) • [Instalação](#-instalação) • [Como Usar](#-como-usar) • [Cálculos Financeiros](#-cálculos-financeiros) • [Stack](#-stack-tecnológica)
 
 </div>
+
+---
+
+## 🚀 Demo ao Vivo
+
+**Experimente agora:** [https://financeiro.yuia.dev/](https://financeiro.yuia.dev/)
 
 ---
 
