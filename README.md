@@ -535,97 +535,11 @@ docker build -t comparador-financeiro .
 docker run -p 8080:80 comparador-financeiro
 ```
 
-### Otimizações de Build
-
-O projeto já vem configurado com:
-
-✅ **Tree-shaking**: Remove código não utilizado  
-✅ **Minificação**: JavaScript e CSS minificados  
-✅ **Code-splitting**: Carregamento lazy de rotas  
-✅ **CSS Purge**: Tailwind remove classes não usadas  
-✅ **Compression**: Gzip automático no Vite  
-
-**Tamanho do bundle:** ~150KB gzipped
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Se você encontrou um bug ou tem uma sugestão:
-
-### Como Contribuir
-
-1. **Fork o projeto**
-```bash
-git clone https://github.com/TechBeme/Comparador-Financeiro.git
-```
-
-2. **Crie uma branch para sua feature**
-```bash
-git checkout -b feature/minha-feature
-```
-
-3. **Faça commit das mudanças**
-```bash
-git commit -m "feat: adiciona nova funcionalidade"
-```
-
-4. **Push para o GitHub**
-```bash
-git push origin feature/minha-feature
-```
-
-5. **Abra um Pull Request**
-
-### Convenções de Código
-
-- **TypeScript Strict Mode**: Sempre tipado
-- **ESLint**: Seguir regras configuradas
-- **Commits Semânticos**:
-  - `feat:` Nova funcionalidade
-  - `fix:` Correção de bug
-  - `docs:` Documentação
-  - `style:` Formatação
-  - `refactor:` Refatoração
-  - `test:` Testes
-  - `chore:` Manutenção
-
-### Ideias para Contribuição
-
-- 📊 Adicionar mais tipos de gráficos
-- 💰 Incluir outros investimentos (ações, FIIs, CDBs)
-- 📱 Melhorar responsividade mobile
-- 🌍 Internacionalização (i18n)
-- 📤 Exportar relatórios em PDF
-- 💾 Salvar simulações no localStorage
-- 🧪 Adicionar testes unitários
-
 ---
 
 ## 📄 Licença
 
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 📞 Suporte
-
-Encontrou algum problema ou tem dúvidas?
-
-- 🐛 **Issues**: [GitHub Issues](https://github.com/TechBeme/Comparador-Financeiro/issues)
-- 📧 **Email**: [contato@techbe.me](mailto:contato@techbe.me)
-- 💼 **Fiverr**: [Tech_Be](https://www.fiverr.com/tech_be)
-- 💼 **Upwork**: [Rafael Vieira](https://www.upwork.com/freelancers/~01f0abcf70bbd95376)
-
----
-
-## ⭐ Mostre seu apoio
-
-Se este projeto foi útil para você, considere:
-
-- ⭐ Dar uma estrela no GitHub
-- 🔄 Compartilhar com amigos investidores
-- 🐦 Tweetar sobre o projeto
 
 ---
 
