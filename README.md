@@ -545,7 +545,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 <div align="center">
 
-**Desenvolvido com ❤️ por [Rafael Vieira](https://github.com/TechBeme)**
+**Desenvolvido por [Rafael Vieira](https://github.com/TechBeme)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-TechBeme-181717?logo=github)](https://github.com/TechBeme)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Tech__Be-1DBF73?logo=fiverr)](https://www.fiverr.com/tech_be)
