@@ -24,7 +24,6 @@
 ## 📋 Sumário
 
 - [Visão Geral](#-visão-geral)
-- [Sobre o Desenvolvedor](#-sobre-o-desenvolvedor)
 - [Características](#-características)
 - [Stack Tecnológica](#-stack-tecnológica)
 - [Instalação](#-instalação)
@@ -57,36 +56,6 @@ Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras ma
 ✅ **Todos os Custos Incluídos**: IPTU, condomínio, seguro, manutenção, vacância, inadimplência  
 ✅ **Interface Moderna**: Design responsivo e intuitivo com gráficos interativos  
 ✅ **100% Gratuito**: Open source e sem limitações
-
----
-
-## 👨‍💻 Sobre o Desenvolvedor
-
-<div align="center">
-
-**Desenvolvido por Rafael Vieira (TechBeme)**
-
-[![GitHub](https://img.shields.io/badge/GitHub-TechBeme-181717?logo=github)](https://github.com/TechBeme)
-[![Fiverr](https://img.shields.io/badge/Fiverr-Tech__Be-1DBF73?logo=fiverr)](https://www.fiverr.com/tech_be)
-[![Upwork](https://img.shields.io/badge/Upwork-Profile-14a800?logo=upwork)](https://www.upwork.com/freelancers/~01f0abcf70bbd95376)
-[![Email](https://img.shields.io/badge/Email-contato@techbe.me-EA4335?logo=gmail)](mailto:contato@techbe.me)
-
-### 🚀 Precisa de uma Aplicação Web Personalizada?
-
-Especializado em **aplicações financeiras**, **dashboards interativos**, **automação** e **ferramentas empresariais**.
-
-**Desenvolvedor Full Stack** com expertise em:
-- 💰 **Aplicações Financeiras**: Calculadoras, dashboards, análise de investimentos
-- 🎨 **Frontend Moderno**: React, Next.js, TypeScript, Tailwind CSS
-- ⚡ **Performance**: Vite, otimização de build, SEO
-- 📊 **Visualização de Dados**: Recharts, gráficos interativos, relatórios
-- 🔄 **Integrações**: APIs REST, webhooks, automação de processos
-
-**Entre em contato para transformar sua ideia em realidade!**
-
-📧 [contato@techbe.me](mailto:contato@techbe.me)
-
-</div>
 
 ---
 
