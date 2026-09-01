@@ -2,7 +2,7 @@
 
 # 💰 Comparador Financeiro
 
-**Ferramenta profissional para análise e comparação de investimentos: Imóveis vs Tesouro Direto**
+**Comparação de imóveis para aluguel e Tesouro Direto com TIR, VPL, fluxo de caixa e custos brasileiros**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://reactjs.org/)
@@ -37,24 +37,24 @@
 
 ## 🎯 Visão Geral
 
-O **Comparador Financeiro** é uma aplicação web de nível profissional desenvolvida para auxiliar investidores na tomada de decisão entre **investir em imóveis para aluguel** ou aplicar no **Tesouro Direto**. A ferramenta oferece análises financeiras completas e precisas, considerando todos os custos, impostos e variáveis relevantes do mercado brasileiro.
+O **Comparador Financeiro** compara **imóveis para aluguel** e **Tesouro Direto** por meio de TIR, VPL, renda mensal equivalente e fluxo de caixa. A simulação inclui custos, impostos e variáveis configuráveis do mercado brasileiro.
 
 ### Por que usar esta ferramenta?
 
-Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras mais importantes e complexas. Esta aplicação elimina as suposições e fornece dados concretos baseados em cálculos financeiros profissionais:
+Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras mais importantes e complexas. A aplicação calcula os resultados a partir dos valores informados pelo usuário:
 
 - **TIR (Taxa Interna de Retorno)**: Compare a rentabilidade real de cada investimento
 - **VPL (Valor Presente Líquido)**: Entenda o valor presente dos fluxos futuros
 - **Renda Mensal Equivalente (RME)**: Veja quanto cada investimento "pagaria" mensalmente
 - **Simulação de Cenários**: Ajuste variáveis e veja impactos em tempo real
-- **Análise Completa de Custos**: ITBI, corretagem, manutenção, vacância, IR regressivo e mais
+- **Custos Considerados**: ITBI, corretagem, manutenção, vacância e IR regressivo
 
 ### Diferenciais
 
-✅ **Cálculos Profissionais**: Motor financeiro completo com TIR, VPL e fluxo de caixa descontado  
+✅ **Indicadores Financeiros**: TIR, VPL e fluxo de caixa descontado
 ✅ **IR Regressivo Automático**: Considera a tabela regressiva do Tesouro Direto (22,5% → 15%)  
 ✅ **Todos os Custos Incluídos**: IPTU, condomínio, seguro, manutenção, vacância, inadimplência  
-✅ **Interface Moderna**: Design responsivo e intuitivo com gráficos interativos  
+✅ **Interface Responsiva**: Formulários e gráficos interativos para desktop e mobile
 ✅ **100% Gratuito**: Open source e sem limitações
 
 ---
@@ -120,7 +120,7 @@ Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras ma
 | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white) | 3.4.17 | Framework CSS utilitário |
 | **shadcn/ui** | - | Componentes acessíveis e customizáveis |
 | **Radix UI** | - | Primitivas de UI sem estilo |
-| **Lucide Icons** | 0.462.0 | Ícones SVG modernos |
+| **Lucide Icons** | 0.462.0 | Ícones SVG |
 
 ### Gráficos & Dados
 
@@ -135,7 +135,7 @@ Investir em imóveis ou Tesouro Direto? Esta é uma das decisões financeiras ma
 - **Tree-shaking**: Bundling otimizado com Vite
 - **Code-splitting**: Carregamento lazy de rotas
 - **CSS Purge**: Tailwind remove classes não utilizadas
-- **TypeScript Strict Mode**: Máxima segurança de tipos
+- **TypeScript Strict Mode**: Verificação de tipos com as regras estritas ativadas
 
 ---
 
@@ -272,7 +272,7 @@ Experimente diferentes cenários ajustando:
 
 ### Metodologia
 
-A aplicação utiliza conceitos avançados de matemática financeira para fornecer análises precisas:
+A aplicação utiliza conceitos de matemática financeira para fornecer análises precisas:
 
 #### 1. Fluxo de Caixa Mensal
 
@@ -306,7 +306,7 @@ Onde:
 **Interpretação:**
 - TIR > Taxa de desconto: Investimento viável
 - TIR > CDI/Selic: Supera renda fixa conservadora
-- TIR > Inflação + 6%: Excelente rentabilidade real
+- TIR > Inflação + 6%: Rentabilidade real acima do parâmetro de comparação
 
 #### 3. Valor Presente Líquido (VPL)
 
